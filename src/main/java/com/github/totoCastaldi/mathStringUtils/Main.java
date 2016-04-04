@@ -1,4 +1,4 @@
-package com.github.totoCastaldi.calculator;
+package com.github.totoCastaldi.mathStringUtils;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.Guice;

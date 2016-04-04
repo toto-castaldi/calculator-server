@@ -7,7 +7,7 @@
         <version>1.2-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.github.toto-castaldi.calculator</groupId>
+    <groupId>com.github.toto-castaldi.mathStringUtils</groupId>
     <artifactId>server</artifactId>
     <packaging>jar</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
@@ -85,6 +85,7 @@
     </properties>
 
     <build>
+        <finalName>${project.artifactId}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -109,7 +110,7 @@
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <manifestEntries>
-                                        <Main-Class>com.github.totoCastaldi.calculator.Main</Main-Class>
+                                        <Main-Class>com.github.totoCastaldi.mathStringUtils.Main</Main-Class>
                                     </manifestEntries>
                                 </transformer>
                             </transformers>

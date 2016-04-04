@@ -8,7 +8,7 @@ RUN apt-get install openjdk-8-jdk -y
 RUN apt-get install curl -y
 RUN apt-get install wget -y
 
-RUN wget https://oss.sonatype.org/content/repositories/snapshots/com/github/toto-castaldi/calculator/server/1.0-SNAPSHOT/server-1.0-20160401.124750-1.jar && cp /*.jar /server.jar
+RUN wget https://oss.sonatype.org/content/repositories/snapshots/com/github/toto-castaldi/mathStringUtils/server/1.0-SNAPSHOT/server-1.0-20160404.142620-1.jar && cp /*.jar /server.jar
 
 COPY docker-entrypoint.sh /
 
